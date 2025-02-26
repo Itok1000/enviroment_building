@@ -1,8 +1,8 @@
 import React from 'react'
 
-const TodoList = () => {
+const TodoList = (props: any) => {
   return (
-    <div>TodoList</div>
+    <div>{props.todos}</div>
   )
 }
 
