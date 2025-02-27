@@ -4,6 +4,7 @@ import { useState, useRef } from "react";
 import { v4 as uuidv4 } from "uuid";
 
 import React from "react";
+import Sidebar from "./components/Sidebar";
 
 const App = () => {
   // コンポーネントに記述することで、直接コードを記述するよりも
@@ -55,6 +56,7 @@ const App = () => {
       <button onClick={handleClear}>完了したタスクの削除</button>
       <div>残りのタスク：{todos.filter((todo) => !todo.completed).length}</div>
       <TodoList todos={todos} toggleTodo={toggleTodo} />
+      <Sidebar />
     </div>
   );
   //input属性　入力フォーム
