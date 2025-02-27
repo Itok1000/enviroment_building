@@ -45,19 +45,3 @@
 .row #title {
   flex: 70%;
 }
-
-.SidebarIcon {
-  padding-top: 20px;
-  padding-bottom: 15px;
-  text-align: center;
-}
-
-.SidebarIcon img {
-  width: 100px;
-}
-
-.SidebarIcon p {
-  color: white;
-  font-weight: 600;
-  font-size: 13px;
-}
