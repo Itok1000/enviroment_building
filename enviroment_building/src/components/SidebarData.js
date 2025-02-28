@@ -10,7 +10,7 @@ export const SidebarData = [
     link: "/mail",
   },
   {
-    title: "蒲涼太君のホワイトボード",
+    title: "涼太君のホワイトボード",
     link: "/todo",
   },
   {
